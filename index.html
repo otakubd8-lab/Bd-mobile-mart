@@ -1,40 +1,98 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BD Mobile Mart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BD Mobile Mart</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#f5f5f5;
+}
+header{
+background:#0d6efd;
+color:#fff;
+padding:20px;
+text-align:center;
+}
+.product{
+background:#fff;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+.product img{
+width:100%;
+max-width:300px;
+display:block;
+margin:auto;
+border-radius:10px;
+}
+.price{
+font-size:24px;
+color:red;
+font-weight:bold;
+}
+.btn{
+display:block;
+padding:12px;
+margin-top:10px;
+text-align:center;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+.call{
+background:#0d6efd;
+}
+footer{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+margin-top:20px;
+}
+</style>
+
 </head>
 <body>
 
-    <h1>📱 BD Mobile Mart</h1>
-    <p>স্বাগতম! এখানে মোবাইল কিনতে পারবেন।</p>
+<header>
+<h1>📱 BD Mobile Mart</h1>
+<p>Original Mobile | EMI Available</p>
+</header>
 
-    <hr>
+<div class="product">
+<img src="https://via.placeholder.com/300x300?text=Vivo+V40">
+<h2>Vivo V40</h2>
+<p class="price">৳24,999</p>
+<p>মাসিক কিস্তি: ৳1041</p>
+<a class="btn call" href="tel:01990704528">📞 কল করুন</a>
+<a class="btn" href="https://wa.me/8801990704528">💬 WhatsApp অর্ডার</a>
+</div>
 
-    <!-- প্রোডাক্ট সেকশন -->
-    <div>
-        <h3>iPhone 15 Pro</h3>
-        <p>দাম: ১,২০,০০০ টাকা</p>
-        <p>স্টক: উপলভ্য আছে</p>
-    </div>
+<div class="product">
+<img src="https://via.placeholder.com/300x300?text=OnePlus+Nord+CE5">
+<h2>OnePlus Nord CE5</h2>
+<p class="price">দাম জানতে কল করুন</p>
+<a class="btn call" href="tel:01990704528">📞 কল করুন</a>
+<a class="btn" href="https://wa.me/8801990704528">💬 WhatsApp অর্ডার</a>
+</div>
 
-    <hr>
+<footer>
+<h3>💳 Payment</h3>
+<p><b>bKash (Send Money):</b> 01990704528</p>
 
-    <!-- অর্ডার ফর্ম -->
-    <h3>🛒 অর্ডার করতে নিচের ফর্মটি পূরণ করুন:</h3>
-    <form>
-        <label>আপনার নাম:</label><br>
-        <input type="text" placeholder="এখানে নাম লিখুন" required><br><br>
+<h3>📞 যোগাযোগ</h3>
+<p>01990704528</p>
 
-        <label>মোবাইল নম্বর:</label><br>
-        <input type="tel" placeholder="০১৭XXXXXXXX" required><br><br>
-
-        <label>পূর্ণ ঠিকানা:</label><br>
-        <textarea placeholder="আপনার ডেলিভারি ঠিকানা লিখুন" required></textarea><br><br>
-
-        <button type="submit">অর্ডার নিশ্চিত করুন</button>
-    </form>
+<p>পেমেন্ট করার পর WhatsApp-এ ট্রানজেকশন আইডি পাঠান।</p>
+</footer>
 
 </body>
 </html>
